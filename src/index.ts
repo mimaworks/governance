@@ -1,0 +1,23 @@
+export { MimaGovernance, MimaAttestationError } from './client.js';
+export type {
+  MimaGovernanceOptions,
+  AttestationResult,
+  GrcResult,
+  RecordType,
+  AuthorisedBy,
+  WrapOptions,
+  PushOptions,
+  TraceContext,
+  BatchContext,
+  AccessReviewOptions,
+  ChangeEventOptions,
+  VendorRiskOptions,
+  PolicyAcknowledgedOptions,
+  IncidentReportOptions,
+  AiRiskAssessmentOptions,
+  TrainingDataGovernanceOptions,
+  ModelEvaluationOptions,
+  HumanOversightOptions,
+  ModelDriftEventOptions,
+  GovernanceReviewOptions,
+} from './types.js';

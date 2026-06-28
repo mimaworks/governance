@@ -1,0 +1,36 @@
+{
+  "name": "@mima-ai/governance",
+  "version": "0.1.0",
+  "description": "Mima AI Governance SDK for TypeScript and Node.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "mima",
+    "governance",
+    "eu-ai-act",
+    "compliance",
+    "grc",
+    "attestation",
+    "ai-governance"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
