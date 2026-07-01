@@ -1,6 +1,6 @@
 {
   "name": "@mima-ai/governance",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Mima AI Governance SDK for TypeScript and Node.js",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
