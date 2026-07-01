@@ -58,7 +58,7 @@ export interface MimaGovernanceOptions {
    * pass explicitly only when managing multiple workspaces.
    */
   workspaceId?: string;
-  /** API base URL. Defaults to https://api.mima.ai. */
+  /** API base URL. Defaults to https://api.mima.works. */
   baseUrl?: string;
   /**
    * Name for the agent within the system. Defaults to systemName.

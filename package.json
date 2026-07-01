@@ -1,6 +1,6 @@
 {
   "name": "@mima-ai/governance",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "description": "Mima AI Governance SDK for TypeScript and Node.js",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -32,10 +32,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/getmima/governance"
+    "url": "https://github.com/mimaworks/governance"
   },
-  "homepage": "https://docs.mima.ai",
-  "bugs": "https://github.com/getmima/governance/issues",
+  "homepage": "https://docs.mima.works",
+  "bugs": "https://github.com/mimaworks/governance/issues",
   "devDependencies": {
     "typescript": "^5.4.0"
   }

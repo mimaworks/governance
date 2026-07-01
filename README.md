@@ -1,6 +1,6 @@
 # @mima-ai/governance
 
-TypeScript SDK for AI governance — push compliance evidence to [Mima](https://mima.ai) from your TypeScript or Node.js application.
+TypeScript SDK for AI governance — push compliance evidence to [Mima](https://mima.works) from your TypeScript or Node.js application.
 
 One call maps to EU AI Act, ISO 42001, SOC 2, and NIST AI RMF simultaneously.
 
@@ -34,7 +34,7 @@ const generate = mima.wrap('generate_response', async (prompt: string) => {
 });
 
 // Push a GRC evidence record
-await mima.aiRiskAssessment(
+await mima.worksRiskAssessment(
   'customer-support-ai',
   'limited',
   'Customer support question routing',
@@ -52,7 +52,7 @@ await mima.aiRiskAssessment(
 All 11 record types available:
 
 ```typescript
-await mima.aiRiskAssessment(...)
+await mima.worksRiskAssessment(...)
 await mima.modelEvaluation(...)
 await mima.humanOversight(...)
 await mima.trainingDataGovernance(...)
@@ -78,7 +78,7 @@ Each returns `Promise<GrcResult>` with `recordId`, `mappedControls`, and `detail
 
 ## Docs
 
-[docs.mima.ai](https://docs.mima.ai)
+[docs.mima.works](https://docs.mima.works)
 
 ## Python SDK
 

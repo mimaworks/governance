@@ -141,7 +141,7 @@ export class MimaGovernance {
     this.apiKey = options.apiKey;
     this.systemName = options.systemName;
     this.workspaceId = options.workspaceId;
-    this.baseUrl = (options.baseUrl ?? 'https://api.mima.ai').replace(/\/$/, '');
+    this.baseUrl = (options.baseUrl ?? 'https://api.mima.works').replace(/\/$/, '');
     this.agentName = options.agentName ?? options.systemName;
     this.signingKey = options.signingKey;
     this.authorisedBy = options.authorisedBy;
