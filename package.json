@@ -23,7 +23,13 @@
   "keywords": [
     "mima",
     "governance",
+    "sdk",
+    "typescript",
+    "nodejs",
     "eu-ai-act",
+    "iso-42001",
+    "soc2",
+    "nist-ai-rmf",
     "compliance",
     "grc",
     "attestation",
@@ -32,7 +38,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mimaworks/governance"
+    "url": "git+https://github.com/mimaworks/governance.git"
   },
   "homepage": "https://docs.mima.works",
   "bugs": "https://github.com/mimaworks/governance/issues",
